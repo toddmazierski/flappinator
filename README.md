@@ -1,6 +1,6 @@
 # flappinator
 
-A command-line utility to help debug flapping processes, including tests.
+A command-line utility to help debug flapping processes, including tests. It repeats any given command a number of times (25 by default). When it fails, the command's output is displayed.
 
 ## Installation
 
@@ -10,8 +10,6 @@ gem install flappinator
 
 ## Usage
 
-The flappinator repeats any given command a number of times (25 by default). When it fails, the command's output is displayed.
-
 ```bash
 flappinator [ --repetitions=TIMES ] COMMAND
 ```
@@ -19,5 +17,5 @@ flappinator [ --repetitions=TIMES ] COMMAND
 For example:
 
 ```bash
-flappinator rspec spec/models/flapping_spec.rb
+flappinator bundle exec rspec spec/models/flapping_spec.rb
 ```
