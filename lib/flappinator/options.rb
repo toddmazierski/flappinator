@@ -12,9 +12,10 @@ module Flappinator
     end
 
     def parse!
+      # Duplicate the arguments, as parsing is destructive.
       args = @args.dup
       parser.parse!(args)
-      # Assign the remaining unparsed arguments as the COMMAND.
+      # Assign the remaining unparsed arguments (the COMMAND).
       @command = args
       raise ArgumentError if @command.empty?
     end

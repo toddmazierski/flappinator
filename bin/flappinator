@@ -1,7 +1,4 @@
 #!/usr/bin/env ruby
 
 require 'flappinator'
-
-options = Flappinator::Options.new(ARGV)
-options.parse!
-Flappinator.start(options)
+Flappinator.start(ARGV)
