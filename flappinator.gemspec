@@ -1,4 +1,4 @@
-Gem::Specification.new('flappinator', '0.0.0') do |spec|
+Gem::Specification.new('flappinator', '0.0.1') do |spec|
   spec.authors     = ['Todd Mazierski']
   spec.email       = ['todd@generalassemb.ly']
   spec.homepage    = 'https://github.com/toddmazierski/flappinator'
