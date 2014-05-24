@@ -4,5 +4,5 @@
 # Ignore vendored gems installed by Bundler.
 vendor/bundle
 
-# Ignore build gems.
+# Ignore built gems.
 *.gem
